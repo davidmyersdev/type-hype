@@ -19,14 +19,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     ],
     "dependencyTreeRoots": [
       {
-        "name": "typescript-use",
+        "name": "type-hype",
         "reference": "workspace:."
       }
     ],
     "enableTopLevelFallback": true,
     "ignorePatternData": "(^(?:\\.yarn\\/sdks(?:\\/(?!\\.{1,2}(?:\\/|$))(?:(?:(?!(?:^|\\/)\\.{1,2}(?:\\/|$)).)*?)|$))$)",
     "fallbackExclusionList": [
-      ["typescript-use", ["workspace:."]]
+      ["type-hype", ["workspace:."]]
     ],
     "fallbackPool": [
     ],
@@ -39,11 +39,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "SOFT",
         }]
       ]],
-      ["typescript-use", [
+      ["type-hype", [
         ["workspace:.", {
           "packageLocation": "./",
           "packageDependencies": [
-            ["typescript-use", "workspace:."]
+            ["type-hype", "workspace:."]
           ],
           "linkType": "SOFT",
         }]
