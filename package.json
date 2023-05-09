@@ -1,8 +1,12 @@
 {
   "name": "type-hype",
   "version": "0.0.1",
-  "packageManager": "yarn@3.1.1",
+  "packageManager": "pnpm@8.4.0",
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "tsd": "^0.28.1",
+    "typescript": "^5.0.4"
   }
 }
