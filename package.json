@@ -5,8 +5,17 @@
   "publishConfig": {
     "access": "public"
   },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "test": "tsc"
+  },
   "devDependencies": {
+    "eslint": "^8.40.0",
+    "eslint-config-artisan": "^0.2.1",
+    "serve": "^14.2.0",
     "tsd": "^0.28.1",
+    "typedoc": "^0.24.7",
     "typescript": "^5.0.4"
   }
 }
